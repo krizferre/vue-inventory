@@ -1,0 +1,48 @@
+body {
+  min-height: 100vh;
+}
+
+table input {
+  width: 130px;
+}
+
+table input.number {
+  width: 80px;
+}
+
+.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+/* .nav-link.active {
+  color: #007bff !important;
+  background-color: white !important;
+} */
+
+.modal-content,
+.modal-header  {
+    -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important; 
+}
+
+fieldset {
+  border: 1px groove white !important;
+  padding: 0 .5rem .5rem .5rem !important;
+  margin: 0 0 1.5rem 0 !important;
+  -webkit-box-shadow:  0px 0px 0px 0px #000;
+          box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend {
+  width: inherit; /* Or auto */
+  padding: 0 10px; /* To give a bit of padding on the left and right */
+  border-bottom:none;
+}
+
+@media (min-width:992px) {
+  .srch-qty {
+    margin-bottom: 1.5rem;
+  }
+}
